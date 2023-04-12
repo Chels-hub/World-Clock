@@ -7,6 +7,7 @@
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -17,19 +18,19 @@
         <option value="">Toronto</option>
         <option value="">London</option>
       </select>
-      <div class="City">
+      <div class="City" id="losAngeles">
         <div>
           <h2>Los Angeles</h2>
-          <div class="date">April 11, 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">1:23:34 <small>AM</small></div>
+        <div class="time"></div>
       </div>
-      <div class="City">
+      <div class="City" id="Paris">
         <div>
-          <h2>New York</h2>
-          <div class="date">April 11, 2023</div>
+          <h2>Paris</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">1:23:34 <small>AM</small></div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
